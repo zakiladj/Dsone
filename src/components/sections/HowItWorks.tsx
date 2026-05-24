@@ -1,36 +1,39 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { UserPlus, Map, Rocket, TrendingUp } from "lucide-react";
+import {   Fingerprint,
+  Megaphone,
+  Gauge,
+  Workflow, } from "lucide-react";
 
 const steps = [
   {
     number: "01",
-    icon: UserPlus,
-    title: "Join the Community",
-    desc: "Create your free account, complete your profile, and get instant access to the community, resources, and welcome orientation.",
-    detail: "Takes less than 2 minutes",
+    icon: Fingerprint,
+    title: "Positionnement de Marque",
+    desc: "Nous analysons votre marché, vos concurrents et votre audience afin de construire une image de marque forte et mémorable.",
+    detail: "Identité forte & différenciation",
   },
   {
     number: "02",
-    icon: Map,
-    title: "Follow Your Roadmap",
-    desc: "Get a personalized AI roadmap based on your goals — agency growth, content automation, lead gen, or full business systems.",
-    detail: "Tailored to your goals",
+    icon: Megaphone,
+    title: "Stratégie Contenu & Publicité",
+    desc: "Nous créons des contenus et campagnes publicitaires pensés pour attirer l’attention et générer des prospects qualifiés..",
+    detail: "Campagnes orientées conversion",
   },
   {
     number: "03",
-    icon: Rocket,
-    title: "Build & Launch",
-    desc: "Use our templates, tutorials, and live calls to build your first AI system within days — not months. Real results, real fast.",
-    detail: "First system in 7 days",
+    icon: Gauge,
+    title: "Lancement & Optimisation",
+    desc: "Vos campagnes sont lancées avec un suivi continu, des tests stratégiques et une optimisation permanente des performances.",
+    detail: "Optimisation basée sur les données",
   },
   {
     number: "04",
-    icon: TrendingUp,
-    title: "Scale & Compound",
-    desc: "Layer system upon system, automate more each week, and watch your business grow while you focus on what matters most.",
-    detail: "Infinite leverage",
+    icon: Workflow,
+    title: "Scale & Automatisation",
+    desc: "Une fois votre système rentable, nous automatisons et accélérons votre acquisition client pour une croissance durable et prévisible..",
+    detail: "Croissance scalable & automatisée",
   },
 ];
 
@@ -49,15 +52,15 @@ export default function HowItWorks() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="badge-pill mb-5">The Process</span>
+          <span className="badge-pill mb-5">NOTRE PROCESSUS</span>
           <h2 className="text-4xl md:text-5xl font-black text-white mt-4 mb-4 tracking-tight leading-tight">
-            From zero to AI-powered
+            De marque invisible
             <br />
-            <span className="gradient-text">in four steps</span>
+            <span className="gradient-text">à leader de votre marché</span>
           </h2>
           <p className="text-[#8A96B8] text-lg max-w-xl mx-auto font-light">
-            A proven system that takes you from complete beginner to confident AI operator —
-            no technical background required.
+            Une stratégie complète conçue pour générer plus de prospects,
+            augmenter vos conversions et accélérer votre croissance durablement.
           </p>
         </motion.div>
 

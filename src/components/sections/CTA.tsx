@@ -42,20 +42,20 @@ export default function CTA() {
           <div className="inline-flex items-center gap-2 mb-8">
             <span className="badge-pill">
               <span className="w-1.5 h-1.5 rounded-full bg-green-400 animate-pulse" />
-              Spots filling up fast
+              PLACES LIMITÉES CHAQUE MOIS
             </span>
           </div>
 
           {/* Headline */}
           <h2 className="text-5xl md:text-6xl lg:text-7xl font-black tracking-tight leading-[1.05] text-white mb-6">
-            The AI revolution
+            Votre croissance
             <br />
-            <span className="gradient-text text-glow">won't wait for you</span>
+            <span className="gradient-text text-glow">n’attendra pas.</span>
           </h2>
 
           <p className="text-[#8A96B8] text-xl max-w-2xl mx-auto mb-10 leading-relaxed font-light">
-            Every day you delay is a day your competitors get further ahead. Join Digital Space
-            and become the AI operator that others wish they were.
+Nous aidons les entreprises ambitieuses à attirer plus de clients,
+augmenter leurs conversions et construire un système de croissance scalable.
           </p>
 
           {/* CTA Buttons */}
@@ -65,7 +65,7 @@ export default function CTA() {
               className="group relative inline-flex items-center gap-3 px-10 py-5 text-lg font-bold text-white rounded-2xl bg-[#2558E8] hover:bg-[#1A46CC] transition-all duration-300 shadow-[0_0_40px_rgba(37,88,232,0.5)] hover:shadow-[0_0_60px_rgba(37,88,232,0.7)] hover:-translate-y-0.5"
             >
               <Users size={20} />
-              Join Free Today
+              Réserver un appel stratégique
               <ArrowRight
                 size={18}
                 className="group-hover:translate-x-1 transition-transform duration-200"
@@ -76,7 +76,7 @@ export default function CTA() {
               className="group inline-flex items-center gap-3 px-10 py-5 text-lg font-bold text-[#C0C8D8] rounded-2xl border border-white/[0.12] hover:border-[#2558E8]/50 hover:bg-[#2558E8]/08 hover:text-white transition-all duration-300 hover:-translate-y-0.5"
             >
               <Zap size={20} className="text-[#4B78F5]" />
-              Book a Strategy Call
+             Découvrir notre méthode
             </a>
           </div>
 

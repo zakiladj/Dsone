@@ -7,18 +7,18 @@ import { Rocket, Globe, Shield } from "lucide-react";
 const pillars = [
   {
     icon: Rocket,
-    title: "Speed of Execution",
-    desc: "We teach you to build fast, deploy faster, and iterate constantly — because the AI landscape moves at the speed of light.",
+    title: "Résultats Rapides",
+    desc: "Des stratégies efficaces conçues pour générer rapidement plus de visibilité et de performances.",
   },
   {
     icon: Globe,
-    title: "Global Impact",
-    desc: "Our members span 40+ countries, bringing diverse perspectives and opportunities that transcend any single market.",
+    title: "Présence Digitale Forte",
+    desc: "Développez votre image de marque sur les réseaux sociaux avec une stratégie moderne et cohérente.",
   },
   {
     icon: Shield,
-    title: "Trustworthy Community",
-    desc: "We're curated, not open-to-all. Every member shares a commitment to excellence, growth, and mutual support.",
+    title: "Accompagnement Premium",
+    desc: "Nous offrons un accompagnement personnalisé et de qualité pour vous aider à atteindre vos objectifs.",
   },
 ];
 
@@ -36,20 +36,20 @@ export default function About() {
             viewport={{ once: true }}
             transition={{ duration: 0.7 }}
           >
-            <span className="badge-pill mb-5">Our Mission</span>
+            <span className="badge-pill mb-5">QUI SOMMES-NOUS</span>
             <h2 className="text-4xl md:text-5xl font-black text-white mt-4 mb-6 tracking-tight leading-tight">
-              We exist to give you an
-              <span className="gradient-text"> unfair advantage</span>
+              Nous Aidons Les Marques
+              <span className="gradient-text"> À Dominer Le Digital</span>
             </h2>
             <p className="text-[#8A96B8] text-base leading-relaxed font-light mb-6">
-              Digital Space was founded on a single belief: that AI will create the greatest
-              transfer of wealth in human history — and those who understand how to harness it
-              will be on the right side of that shift.
+              Digital Space accompagne les entreprises modernes
+              dans leur croissance grâce à des stratégies digitales performantes,
+              du contenu impactant et des campagnes publicitaires optimisées
             </p>
             <p className="text-[#8A96B8] text-base leading-relaxed font-light mb-10">
-              We bring together the sharpest AI builders, operators, and entrepreneurs to share
-              knowledge, build together, and create businesses that run intelligently — at scale,
-              with less effort, and more impact.
+                Nous combinons branding, marketing et 
+                automatisation pour aider les marques ambitieuses à développer 
+              leur visibilité, attirer plus de clients et augmenter leurs résultats.
             </p>
 
             {/* Pillars */}
@@ -104,14 +104,14 @@ export default function About() {
                 <p className="text-[#4B78F5] text-sm font-medium mb-1 tracking-wide">
                   Let The Technology Drive our Business
                 </p>
-                <p className="text-[#8A96B8] text-xs mb-8">AI Automation Community</p>
+                <p className="text-[#8A96B8] text-xs mb-8">Agence Marketing Premium</p>
 
                 {/* Mini stats */}
                 <div className="grid grid-cols-3 gap-4 w-full border-t border-white/[0.06] pt-6">
                   {[
-                    { v: "40+", l: "Countries" },
-                    { v: "2.4K", l: "Members" },
-                    { v: "150+", l: "Builds" },
+                    { v: "120+", l: "Clients" },
+                    { v: "3M+", l: "Vues Générées" },
+                    { v: "$500K+", l: "Ads Gérés" },
                   ].map((s) => (
                     <div key={s.l} className="text-center">
                       <div className="text-xl font-black gradient-text-blue">{s.v}</div>

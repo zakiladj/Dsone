@@ -2,64 +2,64 @@
 
 import { motion } from "framer-motion";
 import {
-  Video,
+  Megaphone,
+  BadgeDollarSign,
+  Palette,
+  Target,
+  LineChart,
   Users,
-  LayoutTemplate,
-  Cpu,
-  BookOpen,
-  Lock,
   Lightbulb,
-  Folder,
+  Bot,
 } from "lucide-react";
 
 const benefits = [
   {
-    icon: Video,
-    title: "Weekly Live Calls",
-    desc: "Join live strategy sessions, Q&As, and deep-dives with AI experts and successful entrepreneurs every week.",
-    badge: "Live",
+    icon: Megaphone,
+    title: "Gestion Des Réseaux Sociaux",
+    desc: "Création et gestion de contenu moderne pour développer votre visibilité et votre communauté.",
+    badge: "Social",
+  },
+  {
+    icon: BadgeDollarSign,
+    title: "Publicités Performantes",
+    desc: "Campagnes Meta Ads optimisées pour générer plus de ventes et de prospects qualifiés.",
+    badge: "Ads",
+  },
+  {
+    icon: Palette,
+    title: "Branding Premium",
+    desc: "Une identité visuelle forte pour renforcer la crédibilité et l’image de votre marque",
+    badge: "Branding",
+  },
+  {
+    icon: Target,
+    title: "Stratégie Digitale",
+    desc: "Des stratégies marketing adaptées à votre niche et à vos objectifs de croissance.",
+    badge: "Strategy",
+  },
+  {
+    icon: LineChart,
+    title: "Analyse & Optimisation",
+    desc: "Analyse des performances et optimisation continue pour maximiser vos résultats.",
+    badge: "Analytics",
   },
   {
     icon: Users,
-    title: "Elite Networking",
-    desc: "Connect with 2,400+ vetted entrepreneurs, agencies, and builders all operating at the cutting edge of AI.",
-    badge: "Network",
-  },
-  {
-    icon: LayoutTemplate,
-    title: "Done-For-You Templates",
-    desc: "Get plug-and-play automation templates, prompt libraries, and workflow blueprints worth thousands of dollars.",
-    badge: "Templates",
-  },
-  {
-    icon: Cpu,
-    title: "AI Systems & Builds",
-    desc: "Access pre-built AI systems you can deploy immediately — lead gen bots, content engines, CRM automations and more.",
-    badge: "Systems",
-  },
-  {
-    icon: BookOpen,
-    title: "Step-by-Step Tutorials",
-    desc: "Video tutorials and written guides for every skill level — from first automation to 7-figure AI-powered business.",
-    badge: "Learn",
-  },
-  {
-    icon: Lock,
-    title: "Private Community",
-    desc: "An exclusive space free from noise. Share wins, get feedback, find partners — with people who actually get it.",
-    badge: "Private",
+    title: "Accompagnement Personnalisé",
+    desc: "Un suivi stratégique adapté à votre marque pour améliorer vos performances et accélérer votre croissance digitale.",
+    badge: "Support",
   },
   {
     icon: Lightbulb,
-    title: "Expert Mentorship",
-    desc: "Get direct access to mentors who have built real businesses with AI — not theory, real-world execution.",
-    badge: "Mentorship",
+    title: "Expertise Marketing",
+    desc: "Des stratégies modernes basées sur l’analyse, la performance et les tendances actuelles du marketing digital.",
+    badge: "Expertise",
   },
   {
-    icon: Folder,
-    title: "Resource Vault",
-    desc: "A constantly growing library of tools, SOPs, case studies, and playbooks from top AI operators.",
-    badge: "Resources",
+    icon: Bot,
+    title: "Solutions Digitales",
+    desc: "Des outils performants et des solutions digitales conçus pour automatiser et développer votre activité efficacement.",
+    badge: "Automation",
   },
 ];
 
@@ -82,25 +82,26 @@ export default function Benefits() {
           >
             <span className="badge-pill mb-5">Member Benefits</span>
             <h2 className="text-4xl md:text-5xl font-black text-white mt-4 mb-6 tracking-tight leading-tight">
-              Everything inside
+              Pourquoi choisir
               <br />
-              <span className="gradient-text">Digital Space</span>
+              <span className="gradient-text">Digital Space ?</span>
             </h2>
             <p className="text-[#8A96B8] text-base leading-relaxed font-light mb-8 max-w-md">
-              This isn't just a community. It's the most comprehensive AI business accelerator
-              available — built by practitioners, for practitioners.
+              Nous accompagnons les entreprises modernes avec des stratégies digitales,
+               des campagnes performantes et des systèmes marketing 
+               conçus pour générer des résultats concrets.
             </p>
             <div className="glass-card rounded-2xl p-6 border-[#2558E8]/20">
-              <div className="text-[#4B78F5] font-bold text-2xl mb-1">$0</div>
-              <div className="text-white font-semibold mb-1">Free to join</div>
+              <div className="text-[#4B78F5] font-bold text-2xl mb-1">100 % </div>
+              <div className="text-white font-semibold mb-1">Stratégie Personnalisée</div>
               <div className="text-[#8A96B8] text-sm">
-                Start for free. Upgrade when you're ready to go deeper.
+               Chaque projet est conçu selon vos objectifs, votre marché et votre audience.
               </div>
               <a
                 href="#cta"
                 className="mt-5 flex items-center justify-center gap-2 px-6 py-3 rounded-xl bg-[#2558E8] text-white font-semibold text-sm hover:bg-[#1A46CC] transition-all duration-200 shadow-[0_0_20px_rgba(37,88,232,0.35)]"
               >
-                Claim Your Spot
+                Réserver Un Appel
               </a>
             </div>
           </motion.div>

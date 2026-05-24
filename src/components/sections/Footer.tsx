@@ -5,29 +5,30 @@ import { motion } from "framer-motion";
 import { X, Link2, Camera, PlaySquare, Send, ArrowRight } from "lucide-react";
 
 const footerLinks = {
-  Community: [
-    { label: "Join Free", href: "#cta" },
-    { label: "Book a Call", href: "#community" },
-    { label: "About Us", href: "#about" },
-    { label: "How It Works", href: "#how-it-works" },
+  Agence: [
+    { label: "À Propos", href: "#cta" },
+    { label: "Nos Services", href: "#community" },
+    { label: "Études de Cas", href: "#about" },
+    { label: "Notre Processus", href: "#how-it-works" },
+    { label: "Réserver un Appel", href: "#how-it-works" },
   ],
-  Resources: [
-    { label: "AI Templates", href: "#" },
-    { label: "Tutorials", href: "#" },
-    { label: "Blog", href: "#" },
-    { label: "Newsletter", href: "#" },
+  Services: [
+    { label: "Publicité Meta Ads", href: "#" },
+    { label: "Création de Contenu", href: "#" },
+    { label: "Lead Generation", href: "#" },
+    { label: "Branding", href: "#" },
   ],
-  Topics: [
-    { label: "AI Automation", href: "#features" },
-    { label: "AI Agents", href: "#features" },
-    { label: "Workflow Systems", href: "#features" },
-    { label: "Lead Generation", href: "#features" },
+  Expertise: [
+    { label: "Acquisition Client", href: "#features" },
+    { label: "Scaling Business", href: "#features" },
+    { label: "Performance Marketing", href: "#features" },
+    { label: "Optimisation ROI", href: "#features" },
   ],
-  Legal: [
-    { label: "Privacy Policy", href: "#" },
-    { label: "Terms of Service", href: "#" },
-    { label: "Cookie Policy", href: "#" },
-  ],
+  // Legal: [
+  //   { label: "Privacy Policy", href: "#" },
+  //   { label: "Terms of Service", href: "#" },
+  //   { label: "Cookie Policy", href: "#" },
+  // ],
 };
 
 const socials = [
@@ -58,21 +59,21 @@ export default function Footer() {
                   Digital<span className="text-[#4B78F5]">S</span>Pace
                 </span>
                 <span className="text-[#8A96B8] text-[10px] tracking-wider uppercase">
-                  AI Community
+                  Agence
                 </span>
               </div>
             </a>
             <p className="text-[#8A96B8] text-sm leading-relaxed mb-6 max-w-xs">
-              The elite community for entrepreneurs, creators, and agencies building with AI.
-              Let the technology drive your business.
+Nous aidons les marques ambitieuses à générer plus de clients,
+augmenter leur visibilité et accélérer leur croissance grâce à des stratégies marketing performantes.
             </p>
 
             {/* Newsletter */}
-            <p className="text-white text-sm font-semibold mb-3">Get AI tips weekly</p>
+            <p className="text-white text-sm font-semibold mb-3">Recevez nos stratégies de croissance</p>
             <div className="flex gap-2">
               <input
                 type="email"
-                placeholder="your@email.com"
+                placeholder="Support@DigitalSpace.com"
                 className="flex-1 px-4 py-2.5 rounded-xl bg-white/[0.05] border border-white/[0.08] text-white text-sm placeholder-[#8A96B8] focus:outline-none focus:border-[#2558E8]/50 transition-colors"
               />
               <button className="px-4 py-2.5 rounded-xl bg-[#2558E8] text-white hover:bg-[#1A46CC] transition-all duration-200 flex-shrink-0 shadow-[0_0_16px_rgba(37,88,232,0.3)]">
@@ -129,8 +130,8 @@ export default function Footer() {
             © {new Date().getFullYear()} Digital Space. All rights reserved.
           </p>
           <p className="text-[#8A96B8] text-sm">
-            Built for the future.{" "}
-            <span className="text-[#4B78F5] font-medium">Powered by AI.</span>
+            Conçu pour accélérer votre.{" "}
+            <span className="text-[#4B78F5] font-medium">Croissance.</span>
           </p>
         </div>
       </div>
