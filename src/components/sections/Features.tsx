@@ -2,55 +2,55 @@
 
 import { motion } from "framer-motion";
 import {
-  Bot,
-  Workflow,
-  FileText,
+  Megaphone,
+  BadgeDollarSign,
+  Palette,
+  Clapperboard,
   Target,
-  Building2,
-  Wrench,
+  Bot,
+  Sparkles,
   TrendingUp,
-  BrainCircuit,
 } from "lucide-react";
 
 const features = [
   {
-    icon: BrainCircuit,
-    title: "AI Automation",
-    desc: "Build end-to-end automation pipelines that replace repetitive tasks and free your team to focus on high-value work.",
+    icon: Megaphone,
+    title: "Social Media Management",
+    desc: "Gestion professionnelle de vos réseaux sociaux avec une stratégie de contenu moderne et engageante.",
     color: "#2558E8",
   },
   {
-    icon: Bot,
-    title: "AI Agents",
-    desc: "Deploy autonomous AI agents that research, write, communicate, and execute complex multi-step workflows independently.",
+    icon: BadgeDollarSign,
+    title: "Publicité Meta Ads",
+    desc: "Création et optimisation de campagnes publicitaires performantes pour générer plus de ventes et de clients.",
     color: "#4B78F5",
   },
   {
-    icon: Workflow,
-    title: "Workflow Systems",
-    desc: "Design scalable business workflows with Make, n8n, and Zapier — from simple triggers to enterprise-grade automation.",
+    icon: Palette,
+    title: "Branding & Design",
+    desc: "Construction d’une identité visuelle premium qui renforce la crédibilité et l’image de votre marque.",
     color: "#3B4CC8",
   },
   {
-    icon: FileText,
-    title: "Content Automation",
-    desc: "Generate, repurpose, and distribute high-quality content across every channel on complete autopilot.",
+    icon: Clapperboard,
+    title: "Création De Contenu",
+    desc: "Production de contenus modernes adaptés à Instagram, TikTok et aux nouvelles tendances digitales pour maximiser votre visibilité.",
     color: "#2558E8",
   },
   {
     icon: Target,
-    title: "Lead Generation",
-    desc: "Build AI-powered prospecting and outreach systems that fill your pipeline while you sleep — 24/7, 365 days.",
+    title: "Stratégie Digitale",
+    desc: "Développement de stratégies marketing adaptées à votre niche et à vos objectifs de croissance",
     color: "#4B78F5",
   },
   {
-    icon: Building2,
-    title: "Business Systems",
-    desc: "Systematize your entire business operations — from onboarding to delivery — with intelligent, interconnected automations.",
+    icon: Bot,
+    title: "Automatisation Marketing",
+    desc: "Automatisation de vos processus marketing pour gagner du temps et améliorer vos performances.",
     color: "#3B4CC8",
   },
   {
-    icon: Wrench,
+    icon: Sparkles,
     title: "AI Tools Stack",
     desc: "Master the most powerful AI tools on the market and learn to combine them into unstoppable business machines.",
     color: "#2558E8",
@@ -78,14 +78,14 @@ export default function Features() {
           viewport={{ once: true }}
           className="text-center mb-16"
         >
-          <span className="badge-pill mb-5">What You'll Master</span>
+          <span className="badge-pill mb-5">NOS EXPERTISES</span>
           <h2 className="text-4xl md:text-5xl lg:text-6xl font-black text-white mt-4 mb-4 tracking-tight leading-tight">
-            Everything you need to
+            Des Services Pensés
             <br />
-            <span className="gradient-text">dominate with AI</span>
+            <span className="gradient-text"> Pour La Croissance </span>
           </h2>
           <p className="text-[#8A96B8] text-lg max-w-xl mx-auto font-light">
-            Eight core pillars that transform how you build, grow, and scale your business.
+            Des stratégies digitales modernes pour développer votre visibilité, générer plus de clients et accélérer votre croissance.
           </p>
         </motion.div>
 

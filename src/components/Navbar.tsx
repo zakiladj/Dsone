@@ -51,7 +51,7 @@ export default function Navbar() {
                 Digital<span className="text-[#4B78F5]">S</span>Pace
               </span>
               <span className="text-[#8A96B8] text-[10px] tracking-wider uppercase hidden sm:block">
-                AI Community
+                DIGITAL MARKETING
               </span>
             </div>
           </a>

@@ -115,7 +115,7 @@ export default function Hero() {
         >
           <span className="badge-pill">
             <span className="w-1.5 h-1.5 rounded-full bg-[#4B78F5] animate-pulse" />
-            Now Open — Join 2,400+ AI Builders
+            STRATÉGIES DIGITALES POUR MARQUES MODERNES
           </span>
         </motion.div>
 
@@ -126,9 +126,9 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.2, ease: [0.22, 1, 0.36, 1] }}
           className="text-5xl md:text-6xl lg:text-7xl xl:text-8xl font-black tracking-tight leading-[1.05] mb-6"
         >
-          <span className="text-white">The Future Of</span>
+          <span className="text-white">Le Futur De</span>
           <br />
-          <span className="gradient-text text-glow">Digital Growth</span>
+          <span className="gradient-text text-glow">La Croissance Digitale</span>
         </motion.h1>
 
         {/* Subheadline */}
@@ -138,8 +138,10 @@ export default function Hero() {
           transition={{ duration: 0.7, delay: 0.4 }}
           className="text-lg md:text-xl text-[#8A96B8] max-w-2xl mx-auto mb-10 leading-relaxed font-light"
         >
-        Premium SMMA services for startups, creators, and businesses looking to scale with
-        content strategy, paid ads, and AI-powered marketing.
+
+
+            Agence SMMA premium spécialisée en publicité digitale, branding, création de 
+            contenu et stratégies de croissance pour startups, entreprises et marques ambitieuses.
         </motion.p>
 
         {/* CTAs */}
@@ -154,7 +156,7 @@ export default function Hero() {
             className="group relative inline-flex items-center gap-2.5 px-8 py-4 text-base font-semibold text-white rounded-2xl bg-[#2558E8] hover:bg-[#1A46CC] transition-all duration-300 shadow-[0_0_30px_rgba(37,88,232,0.4)] hover:shadow-[0_0_50px_rgba(37,88,232,0.6)] hover:-translate-y-0.5"
           >
             <Users size={18} />
-            Start Scaling Today
+            Développer Mon Business
             <ArrowRight
               size={16}
               className="group-hover:translate-x-1 transition-transform duration-200"
@@ -165,7 +167,7 @@ export default function Hero() {
             className="group inline-flex items-center gap-2.5 px-8 py-4 text-base font-semibold text-[#C0C8D8] rounded-2xl border border-white/[0.12] hover:border-[#2558E8]/50 hover:bg-[#2558E8]/08 hover:text-white transition-all duration-300 hover:-translate-y-0.5 backdrop-blur-sm"
           >
             <Zap size={18} className="text-[#4B78F5]" />
-            Book a Strategy Call
+            Audit Gratuit
           </a>
         </motion.div>
 
@@ -188,7 +190,7 @@ export default function Hero() {
               ))}
             </div>
             <span>
-              <strong className="text-white font-semibold">120+</strong> brands scaled with us
+              <strong className="text-white font-semibold">120+</strong> Marques Accompagnées
             </span>
           </div>
           <div className="hidden sm:block w-px h-4 bg-white/10" />
@@ -197,13 +199,13 @@ export default function Hero() {
               <Star key={i} size={13} className="text-[#4B78F5] fill-[#4B78F5]" />
             ))}
             <span className="ml-1">
-              <strong className="text-white font-semibold">4.9/5</strong> client satisfaction
+              <strong className="text-white font-semibold">4.9/5</strong> Satisfaction Client
             </span>
           </div>
           <div className="hidden sm:block w-px h-4 bg-white/10" />
           <div className="flex items-center gap-2">
             <div className="w-2 h-2 rounded-full bg-green-400 animate-pulse" />
-            <span>Active campaigns running now</span>
+            <span>Campagnes Actives En Temps Réel</span>
           </div>
         </motion.div>
       </motion.div>

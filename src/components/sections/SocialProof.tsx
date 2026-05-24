@@ -4,37 +4,37 @@ import { motion } from "framer-motion";
 import { Star, Quote } from "lucide-react";
 
 const stats = [
-  { value: "2,400+", label: "Active Members", sub: "and growing daily" },
-  { value: "150+", label: "AI Systems Built", sub: "across industries" },
-  { value: "$2.8M+", label: "Revenue Generated", sub: "by our members" },
-  { value: "98%", label: "Satisfaction Rate", sub: "from our community" },
+  { value: "120+", label: "Clients Accompagnés", sub: "Branding-Ecommerce" },
+  { value: "3M+", label: "Vues Générées", sub: "pour nos clients" },
+  { value: "$500K+", label: "Budget Publicitaire Géré", sub: "campagnes Meta & TikTok & Google" },
+  { value: "98%", label: "Taux De Satisfaction", sub: "clients satisfaits" },
 ];
 
 const testimonials = [
   {
     quote:
-      "Digital Space completely changed how I run my agency. The AI automation systems I learned here generate leads 24/7 without any manual work. ROI in the first 30 days.",
-    name: "Marcus Chen",
-    role: "Agency Owner",
-    location: "San Francisco, CA",
+      "Digital Space nous a aidés à augmenter nos ventes grâce à des campagnes publicitaires ultra performantes. Les résultats sont arrivés dès les premières semaines.",
+    name: "Yacine Belkacem",
+    role: "E-commerce Owner",
+    location: "Alger",
     stars: 5,
     avatar: "MC",
   },
   {
     quote:
-      "I've been in 20+ communities. None come close. The quality of members, the templates, the weekly calls — it's like having a team of AI experts in your pocket.",
-    name: "Sophia Laurent",
-    role: "SaaS Founder",
-    location: "Paris, France",
+      "J'étais sceptique à propos de l'automatisation, mais Digital Space a transformé notre approche marketing. Nous avons gagné du temps et nos campagnes sont plus efficaces que jamais.",
+    name: "Lina Bensalem",
+    role: "Fondatrice & CEO",
+    location: "Oran ",
     stars: 5,
     avatar: "SL",
   },
   {
     quote:
-      "Went from zero AI knowledge to fully automating my content pipeline in 6 weeks. My business runs while I sleep. Digital Space made that possible.",
-    name: "David Okafor",
-    role: "Content Creator",
-    location: "Lagos, Nigeria",
+      "Grâce à leur stratégie de contenu et leurs publicités, nous avons généré plus de leads en quelques semaines qu’en plusieurs mois auparavant",
+    name: "Mehdi Zerouk",
+    role: "Entrepreneur Digital",
+    location: "Constantine",
     stars: 5,
     avatar: "DO",
   },
@@ -77,9 +77,9 @@ export default function SocialProof() {
           viewport={{ once: true }}
           className="text-center mb-12"
         >
-          <span className="badge-pill mb-4">Social Proof</span>
+          <span className="badge-pill mb-4">TESTIMONIALS</span>
           <h2 className="text-3xl md:text-4xl font-black text-white mt-4">
-            Trusted by AI builders worldwide
+            Transformez Votre Présence Digitale
           </h2>
         </motion.div>
 
